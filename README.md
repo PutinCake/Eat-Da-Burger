@@ -1,6 +1,6 @@
 # Eat-Da-Burger
 
-###Overview
+### Overview
 
 A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat... and then devour them! Please check out the launched app on Heroku here!
 
@@ -15,7 +15,7 @@ Using an home-grown ORM, the app has 3 basic CRUD functions
  * hits a `/burger/create` route in Express to insert a new burger into the MySQL database
  * re-routes the webpage back to the index, where the burger is now ready to be eaten column (via Handlebars)
 
-###Directory structure
+### Directory structure
 All the recommended files and directories should look like the following structure:
 
     .
@@ -54,12 +54,20 @@ All the recommended files and directories should look like the following structu
         └── layouts
             └── main.handlebars
             
-###Screenshots
+### Screenshots
+
+Index page
 
 ![pic](https://github.com/PutinCake/Eat-Da-Burger/blob/master/public/assets/images/index.png)
 
+Input
+
 ![pic](https://github.com/PutinCake/Eat-Da-Burger/blob/master/public/assets/images/input.png)
 
+Added
+
 ![pic](https://github.com/PutinCake/Eat-Da-Burger/blob/master/public/assets/images/added.png)
+
+Eaten
 
 ![pic](https://github.com/PutinCake/Eat-Da-Burger/blob/master/public/assets/images/eaten.png)
